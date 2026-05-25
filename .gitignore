@@ -37,6 +37,10 @@ src/sports/nba/tune_train.py
 # Tennis data (large processed file, not tracked)
 data/tennis/processed/
 
+# Tennis runtime caches / scan outputs (regenerated at runtime)
+data/tennis/rankings_cache/
+data/tennis/projections/
+
 # Tennis model binaries (regenerate with train.py)
 models/tennis/*.json
 
